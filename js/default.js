@@ -10,9 +10,8 @@ document.getElementById('form').onsubmit = function(GX){
 
 
 var message;
-
+var Number=document.getElementById('form').number.value;
 for(var i=1; i<Number; i++){
-  var Number=document.getElementById('form').onsubmit(GX);
   var li = document.createElement('li');
   if(i%3 === 0){
     document.getElementById('Fizz');
