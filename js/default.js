@@ -14,15 +14,11 @@ var Number=document.getElementById('form').number.value;
 for(var i=1; i<Number; i++){
   var li = document.createElement('li');
   if(i%3 === 0){
-    //document.getElementById('Fizz');
-    message = 'Fizz';
+    li.textContent = 'Fizz';
   }else if(i%5 === 0){
-    //document.getElementById('Buzz');
-    message = 'Buzz';
+    li.textContent = 'Buzz';
   }else{
-  //li.textContent = i + '回目';
-  //document.getElementById('list').appendChild(li);
-  message= i + '回目';
+  li.textContent = i + '回目';
   }
-  document.getElementById('choice').textContent = message;
+  document.getElementById('list').appendChild(li);
 }
