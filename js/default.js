@@ -13,7 +13,9 @@ var message;
 var Number=document.getElementById('form').number.value;
 for(var i=1; i<Number; i++){
   var li = document.createElement('li');
-  if(i%3 === 0){
+  if(i%15 === 0){
+    li.textContent = 'Fizz Buzz';
+  }else if(i%3 === 0){
     li.textContent = 'Fizz';
   }else if(i%5 === 0){
     li.textContent = 'Buzz';
