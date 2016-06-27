@@ -3,7 +3,7 @@ li.textContent = 'アイテム';
 document.getElementById('list').appendChild(li);
 
 document.getElementById('form').onsubmit = function(GX){
-  window.alert(document.getElementById('form').number.value);
+//  window.alert(document.getElementById('form').number.value);
   //return false;
   
 };
