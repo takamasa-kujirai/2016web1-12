@@ -2,17 +2,12 @@ var li =document.createElement('li');
 li.textContent = 'アイテム';
 document.getElementById('list').appendChild(li);
 
-for(var i=1; i<10; i++){
+document.getElementById('form').onsubmit = function(){
+  window.alert(document.getElementById('form').number.value);
+};
+
+for(var i=1; i<number; i++){
   var li = document.createElement('li');
   li.textContent = i + '回目';
   document.getElementById('list').appendChild(li);
 }
-
-var HP=100;
-while(0<HP){
-  
-}
-
-document.getElementById('form').onsubmit = function(){
-  window.alert(document.getElementById('form').word.value);
-};
