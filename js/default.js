@@ -7,3 +7,12 @@ for(var i=1; i<10; i++){
   li.textContent = i + '回目';
   document.getElementById('list').appendChild(li);
 }
+
+var HP=100;
+while(0<HP){
+  
+}
+
+document.getElementById('form').onsubmit = function(){
+  window.alert(document.getElementById('form').word.value);
+};
