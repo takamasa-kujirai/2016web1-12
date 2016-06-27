@@ -12,7 +12,7 @@ document.getElementById('form').onsubmit = function(GX){
 var message;
 
 for(var i=1; i<Number; i++){
-  var Number=number;
+  var Number=document.getElementById('form').onsubmit(GX);
   var li = document.createElement('li');
   if(i%3 === 0){
     document.getElementById('Fizz');
