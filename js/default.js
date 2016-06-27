@@ -15,10 +15,10 @@ for(var i=1; i<Number; i++){
   var li = document.createElement('li');
   if(i%3 === 0){
     //document.getElementById('Fizz');
-    message = 'Fizz'
+    message = 'Fizz';
   }else if(i%5 === 0){
     //document.getElementById('Buzz');
-    message = 'Buzz'
+    message = 'Buzz';
   }else{
   //li.textContent = i + '回目';
   //document.getElementById('list').appendChild(li);
