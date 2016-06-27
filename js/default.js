@@ -5,9 +5,11 @@ document.getElementById('list').appendChild(li);
 document.getElementById('form').onsubmit = function(){
   window.alert(document.getElementById('form').number.value);
   //return false;
+  
+  var Number=number;
 };
 
-var Number=number;
+
 var message;
 
 for(var i=1; i<number; i++){
