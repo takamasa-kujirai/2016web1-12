@@ -6,12 +6,12 @@ document.getElementById('list').appendChild(li);
 //window.alert(document.getElementById('form').number.value);
   //return false;
 //};
-var Number = parseInt(window.prompt('数を入力してえ'));
+var Number = parseInt(window.prompt('数を入力してください。（フォームは飾り）'));
 
 var message;
 //var Number=document.getElementById('form').number.value;
 
-for(var i=1; i<Number; i++){
+for(var i=1; i<Number+1; i++){
   var li = document.createElement('li');
   if(i%15 === 0){
     li.textContent = 'Fizz Buzz';
