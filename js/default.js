@@ -6,7 +6,7 @@ document.getElementById('list').appendChild(li);
 //window.alert(document.getElementById('form').number.value);
   //return false;
 //};
-var Number = parseInt(window.prompt('数を入力してください。（フォームは飾り）'));
+var Number = parseInt(window.prompt('数を入力してください。フォームは飾りです'));
 
 var message;
 //var Number=document.getElementById('form').number.value;
